@@ -43,17 +43,66 @@
           <p> Select your favourite sports:
               <br/>
                       
-              <input type="checkbox" name="sport" value="football" checked="checked"/> football
+              <input type="checkbox" name="sport" value="football" checked="checked"/> Football
               
               <input type="checkbox" name="sport" value="soccer"/> Soccer
               
               <input type="checkbox" name="sport" value="feetball"/> Feetball
           
           </p>
+
+
+          <p> What is your favourite league?:
+
+              <select name="leagues" size="2">
+              
+              <option value="laLiga"> La Liga</option>
+              <option value="premier"> Premier League</option>
+              <option value="serieA"> Serie A</option>
+              
+              </select>
           
-          
+          </p>
+                    
       </form>
 
+      <form action="example.com" method="post">
+      
+          <p> Add your file:
+              
+              <input type="file" name="user-song" />
+              <br />
+              <input type="image" src="images/subscribe_button.png" width="100" height="50" />
+                        
+          </p>
+          
+          <fieldset>
+          
+              <legend>Fieldset example</legend>
+              <label> Age: <br> <input type="text" name="age" required="required"/></label>
+              <p>
+                  Gender:
+                  <input id="female" type="radio" name="gender" value="f">
+                  <label for="female">Female</label>
+                  <input id="male" type="radio" name="gender" value="m">
+                  <label for="male">Male</label>
+                  <br />
+                  
+              </p> 
+              <label>Birthday:</label>
+              <label> <input type="date" name="birthday" /> </label>
+              <br>
+              <label> eMail: <input type="email" name="email" /> </label>
+              <br>
+             
+              <p>Search:</p>
+              <input type="search" name="search" placeholder="Enter keyword" />
+              <input type="submit" value="Search" />
+
+          </fieldset>
+          
+      </form>
+      
   </body>
     
 </html>
