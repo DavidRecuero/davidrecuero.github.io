@@ -1,0 +1,19 @@
+* {
+    color:rgba(30,30,30, 1.0);
+    background-color:azure}
+
+#header {
+    background-color:bisque;
+    padding: 10px;
+}
+
+#header * {
+    color:darksalmon;
+    background-color:bisque
+}
+
+#figcaption {
+    color:rgba(30,30,30, 1.0)}
+
+a {
+    color:blue}
