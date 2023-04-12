@@ -1,19 +1,52 @@
 * {
     color:rgba(30,30,30, 1.0);
-    background-color:azure}
+    background-color:aliceblue;
+    
+    font-family: Arial, sans-serif;
+    
+    line-height: 1.5em;
+    }
 
 #header {
-    background-color:bisque;
+    background-color:antiquewhite;
     padding: 10px;
 }
 
 #header * {
     color:darksalmon;
-    background-color:bisque
+    background-color:antiquewhite;
 }
 
 #figcaption {
-    color:rgba(30,30,30, 1.0)}
+    color:rgba(30,30,30, 1.0);
+    font-style: italic;}
 
 a {
-    color:blue}
+    color:blue;
+    text-decoration: none;
+}
+
+/*Text Size -Sixteen Pixel Scale-*/
+
+h1  { font-size: 200% }
+h2  { font-size: 150% }
+h3  { font-size: 133% }
+body{ font-size: 100% }
+
+/* Tests to try a new typo*/
+
+@font-face {
+    font-family:'KaushanScript';
+    src:url('../fonts/KaushanScript-Regular.otf');
+}
+
+#typo_test {
+    font-family: KaushanScript;
+    
+    text-transform: uppercase;
+    
+    text-decoration: blink;
+    
+    letter-spacing:0.8em;
+    word-spacing: 1em;
+}
