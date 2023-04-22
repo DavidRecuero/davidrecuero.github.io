@@ -1,0 +1,32 @@
+.text_input {
+    background-color: antiquewhite;
+}
+
+.text_input:focus {
+    background-color: aquamarine;
+}
+
+.submit_input
+{
+    text-shadow: 0px 1px 1px black;
+    background-color: chartreuse;
+    color:darkblue
+}
+
+.submit_input:hover{
+    background-color: darkblue;
+    color:chartreuse
+}
+
+fieldset{
+    width: 300px;
+    background-color: azure;
+    border-radius: 30px;
+}
+
+legend{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
