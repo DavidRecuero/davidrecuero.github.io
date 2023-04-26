@@ -27,6 +27,14 @@ body{
     border-color: wheat;
     
     border-radius: 8px;
+    
+    position:fixed;
+    top: 0px;
+}
+
+#bodypage
+{
+    margin-top: 400px;
 }
 
 /*https://www.w3schools.com/css/css_boxmodel.asp*/
