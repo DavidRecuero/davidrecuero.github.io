@@ -117,6 +117,8 @@ a:visited{ /*Visited*/
 
 a:hover{
     font-weight: bold;
+    
+    cursor:pointer;
 }
 
 a:active{
