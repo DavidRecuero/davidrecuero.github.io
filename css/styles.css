@@ -14,7 +14,7 @@ body {
     margin: 0px auto 0px auto;
 }
 
-#header {
+header {
     background-color: antiquewhite;
     padding: 10px 10px 3px 10px; /*top right bottom left*/
     margin: 0px 0px 30px 0px;
@@ -32,13 +32,13 @@ body {
     top: 0px;
 }
 
-#bodypage {
+article {
     margin-top: 400px;
 }
 
 /*https://www.w3schools.com/css/css_boxmodel.asp*/
 
-#header * {
+header * {
     color: darksalmon;
     background-color: antiquewhite;
     text-align: right;
@@ -54,11 +54,11 @@ body {
     height: 200px;
 }
 
-.page-index {
+nav {
     text-align: center;
     width: 125%;
 }
-.page-index * {
+nav>ul * {
     display: inline;
     margin-right: 10px;
 }
@@ -90,7 +90,7 @@ td {
     border: 3px solid rgba(30, 30, 30, 1);
 }
 
-#figcaption {
+figcaption {
     color: rgba(30, 30, 30, 1);
     font-style: italic;
 }
@@ -150,4 +150,8 @@ a:active {
 
     letter-spacing: 0.8em;
     word-spacing: 1em;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption { 
+    display: block
 }
