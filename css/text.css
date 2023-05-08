@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+/*Text Size -Sixteen Pixel Scale-*/
+
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 150%;
+}
+h3 {
+    font-size: 133%;
+}
+body {
+    font-size: 100%;
+}
+
+/*Links*/
+
+a:link {
+    /*Not visited*/
+    text-decoration: none;
+}
+
+a:visited {
+    /*Visited*/
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+/* Tests to try a new typo*/
+
+@font-face {
+    font-family: "KaushanScript";
+    src: url("../fonts/KaushanScript-Regular.otf");
+}
+
+#typo_test {
+    font-family: KaushanScript;
+
+    text-transform: uppercase;
+
+    text-decoration: blink;
+
+    letter-spacing: 0.8em;
+    word-spacing: 1em;
+}
